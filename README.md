@@ -53,6 +53,13 @@ $('#color').val({r: 255, g: 255, b:255});
 $('#color').val(); // '#ffffff'
 ```
 
+### number
+
+```javascript
+$('#number').val(1);
+$('#number').val(); // 1.
+```
+
 ### time
 
 ```javascript
