@@ -1,10 +1,17 @@
 # jQuery input valHooks
 
-hooks `$.fn.val` of a input element.
+`$.fn.val` hooks for some input elements.
 
-# Examples
+## Usage
 
-## radio
+```html
+<script src="jquery.js"></script>
+<script src="jquery.input.valhooks.js"></script>
+```
+
+## Examples
+
+### radio
 
 ```html
 <input type="radio" name="foo" value="a">
@@ -23,7 +30,7 @@ $('[name=foo]').val('c');
 $('[name=foo]').val(); // c
 ```
 
-## checkbox
+### checkbox
 
 ```javascript
 $('#checkbox').val(true); // check
@@ -32,7 +39,7 @@ $('#checkbox').val(); // false.
 
 ```
 
-## color
+### color
 
 ```javascript
 // same mean.
@@ -46,7 +53,7 @@ $('#color').val({r: 255, g: 255, b:255});
 $('#color').val(); // '#ffffff'
 ```
 
-## time
+### time
 
 ```javascript
 // same mean.
@@ -56,14 +63,14 @@ $('#time').val(3600000);
 $('#time').val(); // 3600000.
 ```
 
-## date
+### date
 
 ```javascript
 $('#date').val(new Date);
 $('#date').val(); // get as Date object.
 ```
 
-## and more
+### and more
 
 week, month, datetime, datetime-local...
 
