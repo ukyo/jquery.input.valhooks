@@ -9,6 +9,10 @@
 <script src="jquery.input.valhooks.js"></script>
 ```
 
+## Tests
+
+[test page](http://ukyo.github.com/jquery.input.valhooks/test/)
+
 ## Examples
 
 ### radio
