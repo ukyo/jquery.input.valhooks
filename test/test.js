@@ -15,7 +15,7 @@ function testInput(type, asserts, jqObject) {
   });
 }
 
-var date = new Date(2013, 0, 1, 9);
+var date = new Date(2013, 0, 1, 0);
 
 testInput('date', [
   {value: {}, error: true},
@@ -38,49 +38,49 @@ testInput('datetime-local', [
 testInput('week', [
   {value: {}, error: true},
   {value: [], error: true},
-  {value: new Date(2013, 0, 7, 9), expected: new Date(2013, 0, 7, 9)},
-  {value: new Date(2013, 0, 8, 9), expected: new Date(2013, 0, 7, 9)},
-  {value: new Date(2013, 0, 10, 9), expected: new Date(2013, 0, 7, 9)},
-  {value: new Date(2013, 0, 10, 9), expected: new Date(2013, 0, 7, 9)},
-  {value: new Date(2013, 0, 11, 9), expected: new Date(2013, 0, 7, 9)},
-  {value: new Date(2013, 0, 12, 9), expected: new Date(2013, 0, 7, 9)},
-  {value: new Date(2013, 0, 13, 9), expected: new Date(2013, 0, 7, 9)}
+  {value: new Date(2013, 0, 7, 0), expected: new Date(2013, 0, 7, 0)},
+  {value: new Date(2013, 0, 8, 0), expected: new Date(2013, 0, 7, 0)},
+  {value: new Date(2013, 0, 10, 0), expected: new Date(2013, 0, 7, 0)},
+  {value: new Date(2013, 0, 10, 0), expected: new Date(2013, 0, 7, 0)},
+  {value: new Date(2013, 0, 11, 0), expected: new Date(2013, 0, 7, 0)},
+  {value: new Date(2013, 0, 12, 0), expected: new Date(2013, 0, 7, 0)},
+  {value: new Date(2013, 0, 13, 0), expected: new Date(2013, 0, 7, 0)}
 ]);
 
 testInput('month', [
   {value: {}, error: true},
   {value: [], error: true},
-  {value: new Date(2013, 0, 1, 9), expected: new Date(2013, 0, 1, 9)},
-  {value: new Date(2013, 0, 2, 9), expected: new Date(2013, 0, 1, 9)},
-  {value: new Date(2013, 0, 3, 9), expected: new Date(2013, 0, 1, 9)},
-  {value: new Date(2013, 0, 4, 9), expected: new Date(2013, 0, 1, 9)},
-  {value: new Date(2013, 0, 5, 9), expected: new Date(2013, 0, 1, 9)},
-  {value: new Date(2013, 0, 6, 9), expected: new Date(2013, 0, 1, 9)},
-  {value: new Date(2013, 0, 7, 9), expected: new Date(2013, 0, 1, 9)},
-  {value: new Date(2013, 0, 8, 9), expected: new Date(2013, 0, 1, 9)},
-  {value: new Date(2013, 0, 9, 9), expected: new Date(2013, 0, 1, 9)},
-  {value: new Date(2013, 0, 10, 9), expected: new Date(2013, 0, 1, 9)},
-  {value: new Date(2013, 0, 11, 9), expected: new Date(2013, 0, 1, 9)},
-  {value: new Date(2013, 0, 12, 9), expected: new Date(2013, 0, 1, 9)},
-  {value: new Date(2013, 0, 13, 9), expected: new Date(2013, 0, 1, 9)},
-  {value: new Date(2013, 0, 14, 9), expected: new Date(2013, 0, 1, 9)},
-  {value: new Date(2013, 0, 15, 9), expected: new Date(2013, 0, 1, 9)},
-  {value: new Date(2013, 0, 16, 9), expected: new Date(2013, 0, 1, 9)},
-  {value: new Date(2013, 0, 17, 9), expected: new Date(2013, 0, 1, 9)},
-  {value: new Date(2013, 0, 18, 9), expected: new Date(2013, 0, 1, 9)},
-  {value: new Date(2013, 0, 19, 9), expected: new Date(2013, 0, 1, 9)},
-  {value: new Date(2013, 0, 20, 9), expected: new Date(2013, 0, 1, 9)},
-  {value: new Date(2013, 0, 21, 9), expected: new Date(2013, 0, 1, 9)},
-  {value: new Date(2013, 0, 22, 9), expected: new Date(2013, 0, 1, 9)},
-  {value: new Date(2013, 0, 23, 9), expected: new Date(2013, 0, 1, 9)},
-  {value: new Date(2013, 0, 24, 9), expected: new Date(2013, 0, 1, 9)},
-  {value: new Date(2013, 0, 25, 9), expected: new Date(2013, 0, 1, 9)},
-  {value: new Date(2013, 0, 26, 9), expected: new Date(2013, 0, 1, 9)},
-  {value: new Date(2013, 0, 27, 9), expected: new Date(2013, 0, 1, 9)},
-  {value: new Date(2013, 0, 28, 9), expected: new Date(2013, 0, 1, 9)},
-  {value: new Date(2013, 0, 29, 9), expected: new Date(2013, 0, 1, 9)},
-  {value: new Date(2013, 0, 30, 9), expected: new Date(2013, 0, 1, 9)},
-  {value: new Date(2013, 0, 31, 9), expected: new Date(2013, 0, 1, 9)}
+  {value: new Date(2013, 0, 1, 0), expected: new Date(2013, 0, 1, 0)},
+  {value: new Date(2013, 0, 2, 0), expected: new Date(2013, 0, 1, 0)},
+  {value: new Date(2013, 0, 3, 0), expected: new Date(2013, 0, 1, 0)},
+  {value: new Date(2013, 0, 4, 0), expected: new Date(2013, 0, 1, 0)},
+  {value: new Date(2013, 0, 5, 0), expected: new Date(2013, 0, 1, 0)},
+  {value: new Date(2013, 0, 6, 0), expected: new Date(2013, 0, 1, 0)},
+  {value: new Date(2013, 0, 7, 0), expected: new Date(2013, 0, 1, 0)},
+  {value: new Date(2013, 0, 8, 0), expected: new Date(2013, 0, 1, 0)},
+  {value: new Date(2013, 0, 9, 0), expected: new Date(2013, 0, 1, 0)},
+  {value: new Date(2013, 0, 10, 0), expected: new Date(2013, 0, 1, 0)},
+  {value: new Date(2013, 0, 11, 0), expected: new Date(2013, 0, 1, 0)},
+  {value: new Date(2013, 0, 12, 0), expected: new Date(2013, 0, 1, 0)},
+  {value: new Date(2013, 0, 13, 0), expected: new Date(2013, 0, 1, 0)},
+  {value: new Date(2013, 0, 14, 0), expected: new Date(2013, 0, 1, 0)},
+  {value: new Date(2013, 0, 15, 0), expected: new Date(2013, 0, 1, 0)},
+  {value: new Date(2013, 0, 16, 0), expected: new Date(2013, 0, 1, 0)},
+  {value: new Date(2013, 0, 17, 0), expected: new Date(2013, 0, 1, 0)},
+  {value: new Date(2013, 0, 18, 0), expected: new Date(2013, 0, 1, 0)},
+  {value: new Date(2013, 0, 19, 0), expected: new Date(2013, 0, 1, 0)},
+  {value: new Date(2013, 0, 20, 0), expected: new Date(2013, 0, 1, 0)},
+  {value: new Date(2013, 0, 21, 0), expected: new Date(2013, 0, 1, 0)},
+  {value: new Date(2013, 0, 22, 0), expected: new Date(2013, 0, 1, 0)},
+  {value: new Date(2013, 0, 23, 0), expected: new Date(2013, 0, 1, 0)},
+  {value: new Date(2013, 0, 24, 0), expected: new Date(2013, 0, 1, 0)},
+  {value: new Date(2013, 0, 25, 0), expected: new Date(2013, 0, 1, 0)},
+  {value: new Date(2013, 0, 26, 0), expected: new Date(2013, 0, 1, 0)},
+  {value: new Date(2013, 0, 27, 0), expected: new Date(2013, 0, 1, 0)},
+  {value: new Date(2013, 0, 28, 0), expected: new Date(2013, 0, 1, 0)},
+  {value: new Date(2013, 0, 29, 0), expected: new Date(2013, 0, 1, 0)},
+  {value: new Date(2013, 0, 30, 0), expected: new Date(2013, 0, 1, 0)},
+  {value: new Date(2013, 0, 31, 0), expected: new Date(2013, 0, 1, 0)}
 ]);
 
 testInput('time', [
